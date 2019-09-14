@@ -1,0 +1,76 @@
+
+$primary-color : #6A55FC;
+
+$color-text: #333;
+
+
+$h1-size : 4rem;
+$h2-size : 2.5rem;
+$h6-size : 1rem;
+
+
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+h1 {
+  font-size: $h1-size;
+}
+
+
+body, .smooth-container { scroll-behavior: smooth }
+
+.border {
+
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+  background-color: $color-text;
+  width: 80px;
+  height: 3px;
+}
+
+
+h2 {
+  padding-top: 30px;
+  font-size: $h2-size;
+}
+
+.title1 {
+  padding-top: 35px;
+  font-size: $h2-size;
+  color: $color-text;
+}
+
+#title2 {
+  padding-top: 30px;
+  font-size: $h2-size;
+  color: white;
+}
+
+h6 {
+  padding: 20px;
+  font-size: $h6-size;
+}
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+#subtitle {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  /*font-family: 'Livvic', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}

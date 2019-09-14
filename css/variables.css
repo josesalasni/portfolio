@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+h1 {
+  font-size: 4rem; }
+
+body, .smooth-container {
+  scroll-behavior: smooth; }
+
+.border {
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+  background-color: #333;
+  width: 80px;
+  height: 3px; }
+
+h2 {
+  padding-top: 30px;
+  font-size: 2.5rem; }
+
+.title1 {
+  padding-top: 35px;
+  font-size: 2.5rem;
+  color: #333; }
+
+#title2 {
+  padding-top: 30px;
+  font-size: 2.5rem;
+  color: white; }
+
+h6 {
+  padding: 20px;
+  font-size: 1rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+#subtitle {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  /*font-family: 'Livvic', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=variables.css.map */
